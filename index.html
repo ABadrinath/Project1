@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badrinath Arul Raj - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>Badrinath Arul Raj</h1>
+                <span class="subtitle">Computer Science @ UIndy</span>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active" data-tab="home">HOME</a></li>
+                    <li><a href="#skills" class="nav-link" data-tab="skills">SKILLS</a></li>
+                    <li><a href="#projects" class="nav-link" data-tab="projects">PROJECTS</a></li>
+                    <li><a href="#personal" class="nav-link" data-tab="personal">PERSONAL</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Bar -->
+    <div class="mobile-menu-bar">
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-menu">
+                <li><a href="#home" class="nav-link active" data-tab="home">HOME</a></li>
+                <li><a href="#skills" class="nav-link" data-tab="skills">SKILLS</a></li>
+                <li><a href="#projects" class="nav-link" data-tab="projects">PROJECTS</a></li>
+                <li><a href="#personal" class="nav-link" data-tab="personal">PERSONAL</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+        <!-- HOME TAB -->
+        <section id="home" class="tab-content active">
+            <div class="home-container">
+                <div class="home-image">
+                    <div class="profile-image">
+                        <img src="images/profile.png" alt="Profile picture of Alex Chen" class="profile-pic">
+                        </div>
+                    </div>
+                </div>
+                <div class="home-intro">
+                    <div class="intro-content">
+                        <h2>Welcome to My Portfolio</h2>
+                        <p class="intro-text">
+                            I'm Badrinath Arul Raj, a passionate Computer Science student at UIndy with a love for creating 
+                            innovative web applications and exploring cutting-edge technologies.
+                        </p>
+                        <p class="intro-text">
+                            From web development to software engineering, I enjoy tackling complex 
+                            challenges and transforming ideas into reality through code.
+                        </p>
+                        <div class="intro-stats">
+                            <div class="stat">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Coding</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">7</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS TAB -->
+        <section id="skills" class="tab-content">
+            <div class="skills-container">
+                <h2 class="section-title">Technical Skills & Education</h2>
+                
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="education-card">
+                        <h4>University of Indianapolis</h4>
+                        <p class="degree">Bachelor of Science in Computer Science</p>
+                        <p class="year">Junior Year • Expected Graduation: 2027</p>
+                    </div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML5 & CSS3</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                        <p class="skill-description">Semantic markup, responsive design, modern CSS features</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                        <p class="skill-description">ES6+ features, DOM manipulation, event handling</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>Python</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                        <p class="skill-description">Data structures, algorithms, Flask framework</p>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>Git & GitHub</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                        <p class="skill-description">Version control, collaboration, project management</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS TAB -->
+        <section id="projects" class="tab-content">
+            <div class="projects-container">
+                <h2 class="section-title">Featured Projects</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-project="0">
+                        <div class="project-image">
+                            <div class="project-placeholder">💻</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p class="project-tech">HTML, CSS, JavaScript</p>
+                            <p class="project-description">
+                                Responsive personal website built with HTML, CSS, and JavaScript featuring 
+                                smooth navigation, interactive elements, and mobile-first design.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="project-btn primary-btn">View Details</button>
+                                <button class="project-btn secondary-btn">Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-project="1">
+                        <div class="project-image">
+                            <div class="project-placeholder">🎮</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Interactive Web Game</h3>
+                            <p class="project-tech">JavaScript, HTML5 Canvas</p>
+                            <p class="project-description">
+                                Browser-based puzzle game with animations and user interaction featuring 
+                                game logic, score tracking, and responsive controls.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="project-btn primary-btn">View Details</button>
+                                <button class="project-btn secondary-btn">Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-project="2">
+                        <div class="project-image">
+                            <div class="project-placeholder">📊</div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Course Management System</h3>
+                            <p class="project-tech">Python, SQLite, Flask</p>
+                            <p class="project-description">
+                                Database-driven web application for managing student information with 
+                                CRUD operations, data validation, and clean user interface.
+                            </p>
+                            <div class="project-buttons">
+                                <button class="project-btn primary-btn">View Details</button>
+                                <button class="project-btn secondary-btn">Live Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERSONAL TAB -->
+        <section id="personal" class="tab-content">
+            <div class="personal-container">
+                <h2 class="section-title">Personal Interests & Contact</h2>
+                
+                <div class="personal-content">
+                    <div class="interests-section">
+                        <h3>Interests & Hobbies</h3>
+                        <div class="interests-grid">
+                            <div class="interest-card">
+                                <div class="interest-icon">🎮</div>
+                                <h4>Gaming</h4>
+                                <p>Strategy games and exploring interactive entertainment design</p>
+                            </div>
+                            <div class="interest-card">
+                                <div class="interest-icon">🚀</div>
+                                <h4>Technology</h4>
+                                <p>Following latest trends in AI, web development, and software engineering</p>
+                            </div>
+                            <div class="interest-card">
+                                <div class="interest-icon">🏋</div>
+                                <h4>Gym</h4>
+                                <p>I like to go gym sometimes</p>
+                            </div>
+                            <div class="interest-card">
+                                <div class="interest-icon">📉</div>
+                                <h4>Finance</h4>
+                                <p>Waste my time looking at stocks</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-section">
+                        <h3>Get In Touch</h3>
+                        <p class="contact-description">
+                            I'm always open to discussing new opportunities, collaborations, or just having 
+                            a conversation about technology and programming.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <strong>Email:</strong> arulrajb@uindy.edu
+                            </div>
+                            <div class="contact-item">
+                                <strong>GitHub:</strong> <a href="https://github.com/ABadrinath" target="_blank">https://github.com/ABadrinath/</a>
+                            </div>
+                            <div class="contact-item">
+                                <strong>LinkedIn:</strong> <a href="https://github.com/ABadrinath" target="_blank">https://www.linkedin.com/in/BadrinathArulRaj/</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
